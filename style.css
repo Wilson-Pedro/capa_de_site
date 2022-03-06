@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #010016;
+    --fonte1: 'PT Sans Caption', 'sans-serif';
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.774); 
+    min-height: 200vh;
+    min-width: 97vw;
+}
+
+section#imagem{
+    background-image: url('capa.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 2px 20px 0px rgba(0, 0, 0, 0.582);
+}
+
+div.container{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.212);
+    margin-top: 100px;
+    margin-left: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 18rem;
+    height: 32vh;
+    padding: 10px;
+    background: rgba(34, 33, 33, 0.637);
+    justify-content: center;
+}
+
+div.container > h2{
+    color: white;
+}
+
+div > input {
+    padding: 5px;
+    margin-top: 1rem;
+    width: 12rem;
+}
+
+input#botao{
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(3, 135, 168));
+    margin-top: 1.4rem;
+    border-radius: 5px;
+    width: 8rem;
+    cursor: pointer;
+}
+
+section#fundo {
+    background: linear-gradient(to bottom, var(--cor1), #080736de);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#container2{
+    background-color: white;
+    height: 23rem;
+    width: 20rem;
+    font-family: 'Arial', 'sans-serif';
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+}
+
+div#container2 > h1{
+    padding: 18px;
+}
+
+div.inp {
+    color: rgb(105, 105, 105);
+    text-align: center;
+}
+
+.input {
+    padding: 6px;
+    margin-top: 20px;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.541);
+}
+
+input#bottom {
+    margin-top: 39px;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(3, 135, 168));
+    cursor: pointer;
+}
+
+input#botao:hover{
+    background: linear-gradient(to right, rgb(3, 135, 168), rgb(0, 204, 255));
+}
+
+input#bottom:hover{
+    background: linear-gradient(to right, rgb(3, 135, 168), rgb(0, 204, 255));
+}
+
+footer {
+    margin-top: 24vh;
+    text-align: center;
+    color: rgb(128, 128, 245);
+    font-size: 15pt;
+    font-style: italic;
+}
