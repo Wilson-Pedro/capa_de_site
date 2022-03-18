@@ -49,6 +49,7 @@ div > input {
     padding: 5px;
     margin-top: 1rem;
     width: 12rem;
+    outline: none;
 }
 
 input#botao{
@@ -102,11 +103,11 @@ input#bottom {
 }
 
 input#botao:hover{
-    background: linear-gradient(to right, rgb(3, 135, 168), rgb(0, 204, 255));
+    background: linear-gradient(to right, rgb(3, 179, 223), rgb(0, 124, 155));
 }
 
 input#bottom:hover{
-    background: linear-gradient(to right, rgb(3, 135, 168), rgb(0, 204, 255));
+    background: linear-gradient(to right, rgb(3, 179, 223), rgb(0, 124, 155));
 }
 
 footer {
